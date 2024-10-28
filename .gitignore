@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+db.sqlite3
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# If you are using Django's local development server with SQLite, you may want to ignore:
+*.sqlite3
+
+# Local environment settings
+.env
+.venv/
+env/
+app_env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# PEP 582; used by e.g.
