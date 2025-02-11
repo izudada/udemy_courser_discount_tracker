@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+
+    'authentication',
+    'discount_scrapper',
+
 ]
 
 MIDDLEWARE = [
@@ -75,6 +79,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'base_api.wsgi.application'
+
+AUTH_USER_MODEL = 'authentication.User'
 
 
 # Database
